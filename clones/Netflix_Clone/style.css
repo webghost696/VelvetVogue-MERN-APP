@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    background-color: black;
+}
+
+#icon{
+    height: 56px;
+    width: 150px;
+    background-size: cover;
+    background-color: transparent;
+    margin-right: 750px;
+}
+
+header,#topButton{
+    margin-left: 20px;
+    height: 32px;
+    width: 77px;
+    border-radius: 5px;
+    color: white;
+}
+button{
+    background-color: rgb(229,9,20);
+    border: none;
+}
+.sel{
+    height: 32px;
+    width: 127px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+.signin{
+    justify-content: flex-end;
+}
+
+header{
+    height: 100px;
+    width: 1200px;
+    margin-left: 127px;
+    margin-right: 127px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.texts{
+    color: white;
+    height: 234px;
+    width: 874px;
+    font-family: Helvetica;
+    text-align: center;
+}
+h1{
+    font-size: 45px;
+}
+
+h3{
+    font-size: 24px;
+    margin-top: 10px;
+}
+p{
+    font-size: 20px;
+}
+#mail{
+    height: 8px;
+    width: 336.75px;
+    border-radius: 5px;
+    background-color: rgba(76, 76, 76, 0.23);
+    border: 0.2px solid white;
+    font-size: 16px;
+    padding: 24px 16px;
+    color: rgba(76, 76, 76, 0.5);
+    text-align:justify;
+}
+#getStarted{
+    height: 56px;
+    width: 209px;
+    background-color: rgb(229,9,20);
+    border: none;
+    margin-left: 8px;
+    border-radius: 5px;
+    font-size: 26px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+.container{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blur{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.top{
+    height: 700px;
+    width: 100%;
+    font-size: 10px;
+    background-image: url("background.jpeg");
+    background-size: cover;
+    z-index: -1;
+}
+
+.part2{
+    height: 511px;
+    width: 1519.2px;
+    background-color: black;
+    border-top: 5px solid grey;
+    padding: 72px 0px;
+    display: flex;
+    color: white;
+}
+.photo{
+    height: 434px;
+    width: 579px;
+    background-image: url("tv.png");
+    background-size: cover;
+}
+h2{
+    font-size: 45px;
+    width: 579px;
+    height: 60px;
+}
+
+.words{
+    height: 434px;
+    width: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo1{
+    height: 434px;
+    width: 579px;
+    background-image: url("mobile.jpg");
+    background-size: cover;
+}
+
+.content{
+    margin: 0px 174px;
+    width: 100%;
+    display: flex;
+}
+
+.part3{
+    height: 511px;
+    width: 1519.2px;
+    background-color: black;
+    border-top: 5px solid grey;
+    padding: 72px 0px;
+    display: flex;
+    color: white;
+}
+
+.part3 p{
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+.part4{
+    height: 511px;
+    width: 1519.2px;
+    background-color: black;
+    border-top: 5px solid grey;
+    padding: 72px 0px;
+    display: flex;
+    color: white;
+}
+
+.photo2{
+    height: 434px;
+    width: 579px;
+    background-image: url("multi.png");
+    background-size: cover;
+}
+
+.part4 p{
+    font-size: 24px;
+}
+
+.part5{
+    height: 511px;
+    width: 1519.2px;
+    background-color: black;
+    border-top: 5px solid grey;
+    padding: 72px 0px;
+    display: flex;
+    color: white;
+}
+
+.photo3{
+    height: 434px;
+    width: 579px;
+    background-image: url("children.png");
+    background-size: cover;
+}
+
+.part5 p{
+    font-size: 24px;
+}
+
+.part6{
+    height: 706.2px;
+    width: 1519.2px;
+    background-color: black;
+    border-top: 5px solid grey;
+    padding: 72px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.faq button{
+    height: 84px;
+    width: 1170px;
+    padding: 24px;
+    background-color: rgba(98, 98, 98, 0.729);
+    color: white;
+    margin-bottom: 10px;
+    text-align: left;
+}
+span{
+    font-size: 24px;
+    text-align: left;
+}
+
+.faq h2{
+    text-align: center;
+    height: 60px;
+    width: 1170px;
+    margin-bottom: 20px;
+}
+.faq{
+    height: 780px;
+    width: 1170px;
+}
+
+.buttons{
+    height: 700px;
+    width: 1170px;
+}
+
+.faq_input{
+    height: 102px;
+    width: 1170px;
+}
+
+.faq_input h3{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.faq_input input{
+    height: 8px;
+    width: 336.75px;
+    border-radius: 5px;
+    background-color: rgba(76, 76, 76, 0.32);
+    border: 0.2px solid white;
+    font-size: 16px;
+    padding: 24px 16px;
+    color: rgba(76, 76, 76, 0.5);
+    text-align:justify;
+}
+.faq_input button{
+    height: 56px;
+    width: 210px;
+}
+
+#login{
+    height: 72px;
+    width: 1170px;
+    display: flex;
+    justify-content: center;
+}
+
+#login button{
+    height: 56px;
+    width: 209px;
+    background-color: rgb(229,9,20);
+    border: none;
+    margin-left: 8px;
+    border-radius: 5px;
+    font-size: 26px;
+    text-align: center;
+    padding: 5px;
+}
+
+.last_part{
+    height: 266px;
+    width: 1266px;
+    margin: 72px 126.6px;
+    padding: 0px 48px;
+}
+
+footer{
+    border-top: 5px solid grey;
+    border-bottom: 5px solid bottom;
+}
+
+.questions{
+    height: 33.6px;
+    width: 1170px;
+    color: #FFFFFFB3;
+}
+a{
+    color: #FFFFFFB3;
+}
+
+.tags{
+    height: 137.6px;
+    width: 1182px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+}
+
+ul a{
+    display: block;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+
+.justify{
+    margin-right: 180px;
+}
+
+.last_part select{
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.32);
+}
+
+
+.last_part p{
+    color: #FFFFFFB3;
+    font-size: 14px;
+    margin-top: 24px;
+}

@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #102542;
+    max-width: 100vw;
+    overflow: hidden;
+}
+
+#content{
+    display: none;
+}
+
+h1{
+    font-size: 4rem;
+    color: #6E8387;
+}
+
+.bona-nova-sc-regular {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .bona-nova-sc-bold {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .bona-nova-sc-regular-italic {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: italic;
+}  
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.submit {
+    padding: 1.3rem;
+    display: block;
+    margin: 1.4rem 0 0 7rem;
+    height: 1rem;
+    padding: 1rem 1rem 2rem;
+    border-radius: 2rem;
+    background-color: #59b2f4;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+
+.submit:hover{
+    box-shadow: 0 0 1rem #59b2f4;
+}
+
+.input{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 1rem;
+    border: none;
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+
+h2{
+    margin-top: 1rem;
+}
+
+.cryptoInfo {
+    opacity: 0;
+    transform: translateY(-20px);
+    height: 50vh;
+    width: 50vw;
+    margin: 5rem 0 3rem 0;
+    box-shadow: 0 0 1.5rem rgba(0,0,0,0.8);
+    text-align: center;
+    font-size: 2.4rem;
+    background-color: #1D3557;
+    color: #fff;
+    border-radius: 1.3rem;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    display: none;
+}
+
+.cryptoInfo.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.horLine{
+    width: 40vw;
+    height: 0.2rem;
+    background-color: #fff;
+    position: absolute;
+    margin-left: 5rem;
+    bottom: 68%;
+}
+
+
+.logo{
+    height: 100vh;
+    width: 80vw;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+form{
+    margin-top: 2.3rem;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loader .dot {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    background-color: #1D3557;
+    border-radius: 50%;
+    animation: bounce 1.2s infinite ease-in-out;
+}
+
+.loader .dot:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.loader .dot:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
