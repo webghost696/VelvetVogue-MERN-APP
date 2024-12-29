@@ -60,7 +60,7 @@ app.post("/registeruser", async (req, res) => {
     }
 });
 
+const port = process.env.PORT || 4000;
 
-
-app.listen(4000);
+app.listen(port);
 console.log("Server Running : 127.0.0.1:4000");
