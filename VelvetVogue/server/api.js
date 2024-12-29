@@ -5,7 +5,10 @@ var connectionString = "mongodb://127.0.0.1:27017";
 var axios = require('axios');
 
 var app = express();
-app.use(cors());
+app.use(cors({
+    origin: "*",
+    creadentials: true
+}));
 app.use(express.urlencoded({extended : true}));
 app.use(express.json());
 var db;
