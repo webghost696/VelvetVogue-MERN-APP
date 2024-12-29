@@ -6,7 +6,10 @@ const mongoClient = require('mongodb').MongoClient;
 const {ObjectId} = require('mongodb');
 const connectionString = "mongodb://127.0.0.1:27017";
 
-app.use(cors());
+app.use(cors({
+    origin: "*",
+    creadentials: true
+}));
 app.use(express.urlencoded({extended : true}));
 app.use(express.json());
 var db;
