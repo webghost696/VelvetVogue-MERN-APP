@@ -122,6 +122,7 @@ app.delete("/delete/:user/:id", async (req, res) => {
 });
 
 const port = process.env.PORT || 4001;
+const host = '0.0.0.0';
 
-app.listen(port);
+app.listen(port, host);
 console.log("Server Running : 127.0.0.1:4001");
