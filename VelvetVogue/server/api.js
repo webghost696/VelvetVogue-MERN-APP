@@ -69,4 +69,4 @@ const host = '0.0.0.0';
 
 
 app.listen(port, host);
-console.log("Server Running : 127.0.0.1:4000");
+console.log(`Server Running : ${port}`);
