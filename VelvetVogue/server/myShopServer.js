@@ -7,8 +7,9 @@ const {ObjectId} = require('mongodb');
 const connectionString = "mongodb://127.0.0.1:27017";
 
 app.use(cors({
-    origin: "*",
-    creadentials: true
+  origin: 'https://velvetvogue-5d4e9.web.app', 
+  methods: ['GET', 'POST', 'PUT', 'DELETE'], 
+  credentials: true 
 }));
 app.use(express.urlencoded({extended : true}));
 app.use(express.json());
