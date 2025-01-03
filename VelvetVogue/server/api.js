@@ -1,7 +1,7 @@
 var express = require("express");
 var cors = require("cors");
 var mongoClient = require("mongodb").MongoClient;
-var connectionString = "mongodb+srv://yashhabib:Yash123%40@yashhabib.qi045.mongodb.net/";
+var connectionString = "mongodb+srv://yashhabib:Yash123%40@yashhabib.qi045.mongodb.net/admin?tls=true";
 var axios = require('axios');
 
 var app = express();
