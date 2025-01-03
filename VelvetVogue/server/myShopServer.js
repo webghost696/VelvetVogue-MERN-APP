@@ -4,7 +4,7 @@ const cors = require('cors');
 const axios = require('axios');
 const mongoClient = require('mongodb').MongoClient;
 const {ObjectId} = require('mongodb');
-const connectionString = "mongodb+srv://yashhabib:Yash123%40@yashhabib.qi045.mongodb.net/";
+const connectionString = "mongodb+srv://yashhabib:Yash123%40@yashhabib.qi045.mongodb.net/admin?tls=true";
 
 app.use(cors({
   origin: 'https://velvetvogue-5d4e9.web.app', 
