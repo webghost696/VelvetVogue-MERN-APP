@@ -6,7 +6,7 @@ var axios = require('axios');
 
 var app = express();
 app.use(cors({
-  origin: 'https://velvetvogue-5d4e9.web.app', 
+  origin: 'https://velvetvogue-vv.web.app', 
   methods: ['GET', 'POST', 'PUT', 'DELETE'], 
   credentials: true 
 }));
