@@ -7,7 +7,7 @@ const {ObjectId} = require('mongodb');
 const connectionString = "mongodb+srv://yashhabib:Yash123%40@yashhabib.qi045.mongodb.net/admin?tls=true";
 
 app.use(cors({
-  origin: 'https://velvetvogue-5d4e9.web.app', 
+  origin: 'https://velvetvogue-vv.web.app', 
   methods: ['GET', 'POST', 'PUT', 'DELETE'], 
   credentials: true 
 }));
